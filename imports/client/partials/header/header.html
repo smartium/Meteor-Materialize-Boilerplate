@@ -1,0 +1,17 @@
+<template name="header">
+  <nav role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="/" class="brand-logo">METEOR</a>
+      <ul class="right hide-on-med-and-down">
+        <li class="{{isActiveRoute 'Main' class='menu-active'}}"><a href="/">Home</a></li>
+        <li class="{{isActiveRoute 'Hello' class='menu-active'}}"><a href="/hello">Hello</a></li>
+        <li class="{{isActiveRoute 'Info' class='menu-active'}}"><a href="/info">Info</a></li>
+      </ul>
+      <ul id="nav-mobile" class="sidenav">
+        <li class="{{isActiveRoute 'Main' class='menu-active'}}"><a href="/">Home</a></li>
+        <li class="{{isActiveRoute 'Hello' class='menu-active'}}"><a href="/hello">Hello</a></li>
+        <li class="{{isActiveRoute 'Info' class='menu-active'}}"><a href="/info">Info</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+</template>
