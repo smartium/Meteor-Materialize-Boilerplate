@@ -7,7 +7,7 @@
 * [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout)
 
 ### NPM
-*[materialize-css](https://www.npmjs.com/package/materialize-css)
+* [materialize-css](https://www.npmjs.com/package/materialize-css)
 
 ## Install
 Install [Meteor](https://www.meteor.com/install)
