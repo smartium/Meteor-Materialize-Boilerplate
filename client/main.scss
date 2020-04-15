@@ -1,18 +1,50 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+body {
+  background-color: #eee;
+  nav, footer {
+    background-color: #6a1b9a;
+  }
+  // transition: $transition-effects;
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
-
-.menu-active {
-  background-color: rgba(0,0,0,.2);
+  @media (prefers-color-scheme: dark) {
+    background-color: #414141;
+    color: #fff;
+    nav, footer {
+      background-color: #212121;
+    }
+    .card {
+      background-color: rgba(255,255,255,0.2);
+    }
+    .btn {
+      background-color: #EE6F73;
+    }
+    .divider {
+      opacity: 0.2;
+    }
+    .sidenav {
+      background-color: #2D2D31;
+      li {
+        a {
+          &:not(.subheader){
+            color: #89B2F5;
+            &:hover {
+              background-color: #3B4043;
+            }
+          }
+          &.subheader {
+            color:#9AA0A6;
+          }
+          .material-icons {
+            color: #9AA0A6;
+          }
+        }
+      }
+    }
+    .collection {
+      border: 1px solid rgba(255,255,255,0.2);
+      .collection-item {
+        background-color: rgba(255,255,255,0.2);
+        border-bottom: 1px solid rgba(255,255,255,0.2);;
+      }
+    }
+  }
 }
