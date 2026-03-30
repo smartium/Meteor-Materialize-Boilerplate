@@ -11,7 +11,7 @@
     "@babel/runtime": "^7.8.3",
     "jquery": "^3.4.1",
     "materialize-css": "^1.0.0-rc.2",
-    "meteor-node-stubs": "^1.0.0"
+    "meteor-node-stubs": "^1.2.26"
   },
   "meteor": {
     "mainModule": {
